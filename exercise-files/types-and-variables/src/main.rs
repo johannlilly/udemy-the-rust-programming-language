@@ -13,5 +13,5 @@ fn main()
   println!("b = {}", b);
 
   let mut c = 123456789; // let rust guess that this is 32-bit signed, aka i32
-  println!("c = {}, size = {} bytes", c, )
+  println!("c = {}, size = {} bytes", c, mem::size_of_val(&c));
 }
