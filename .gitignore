@@ -1,4 +1,6 @@
 .DS_Store
+**/debug
+*.lock
 
 # local env files
 .env.local
